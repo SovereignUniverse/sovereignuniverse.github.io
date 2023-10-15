@@ -43,9 +43,12 @@ input[type="number"]::-webkit-outer-spin-button {
     margin: 0; 
 }
 
-// *:focus {
-//     outline: none; /* Убираем обводку */
-//     border: none; /* Убираем границу */
-//     box-shadow: none; /* Убираем тень */
-// }
+*:focus {
+    outline-color: white;
+    outline-style: dashed;
+    // outline: none; /* Убираем обводку */
+    // border: none; /* Убираем границу */
+    // box-shadow: none; /* Убираем тень */
+}
+
 
