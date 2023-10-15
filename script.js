@@ -8,7 +8,7 @@ var zipCodeTag = document.getElementById('zipCode');
 var searchTag = document.getElementById('search');
 
 function get_json(url) {
-    fetch(url).then(function(response) {
+    fetch('https://cors-anywhere.herokuapp.com/' + url).then(function(response) {
         if (response === 200) {
             return response.json();
         } else {
