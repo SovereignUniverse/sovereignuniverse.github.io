@@ -57,7 +57,6 @@ brandsTag.addEventListener('change', function () {
 });
 
 searchTag.addEventListener('click', function () {
-    webapp.close();
     data = {
         'brand_id': brandsTag.options[brandsTag.selectedIndex].value,
         'model_id': modelsTag.options[modelsTag.selectedIndex].value,
@@ -65,5 +64,5 @@ searchTag.addEventListener('click', function () {
         'distance': distanceTag.value,
         'zip_code': zipCodeTag.value};
     webapp.sendData(data);
-    
+    webapp.close();
 });
