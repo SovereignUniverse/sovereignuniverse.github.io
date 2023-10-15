@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>PickAndPullSearchVehiclesWebApp</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
-<body>
-PickAndPullSearchVehiclesWebApp PHP
 
+<body>
+    <div class="controls">
+        <select class="select" name="brands" id="brands">
+            {brand_options}
+        </select>
+        <select class="select" name="models" id="models">
+            {models_options}
+        </select>
+        <input class="input-years" name="years" id="years" type="text">
+        <input class="input-distance" name="distance" id="distance" type="number">
+        <button class="button-search" name="search" id="search">search</button>
+    </div>
 </body>
+
 </html>
