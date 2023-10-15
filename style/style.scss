@@ -20,7 +20,6 @@ body {
     height: 40px;
     padding: 10px;
     margin: 10px 0;
-    // background-color: blue;
     background-color: var(--tg-theme-button-color);
     color: var(--tg-theme-button-text-color);
     border: none;
@@ -35,6 +34,10 @@ body {
     height: 20px;
 }
 
+option {
+    background-color: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+}
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
@@ -46,9 +49,6 @@ input[type="number"]::-webkit-outer-spin-button {
 *:focus {
     outline-color: white;
     outline-style: dashed;
-    // outline: none; /* Убираем обводку */
-    // border: none; /* Убираем границу */
-    // box-shadow: none; /* Убираем тень */
 }
 
 
