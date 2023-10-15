@@ -10,13 +10,13 @@
 <body>
     <div class="controls">
         <select class="control select" name="brands" id="brands">
-            {brand_options}
+            <option value="" hidden>Choose brand</option>
         </select>
         <select class="control select" name="models" id="models">
-            {models_options}
+            <option value="" hidden>Choose model</option>
         </select>
-        <input class="control input" name="years" id="years" type="text">
-        <input class="control input" name="distance" id="distance" type="number">
+        <input class="control input" name="years" id="years" type="text" placeholder="Years (ex. '2012-16')">
+        <input class="control input" name="distance" id="distance" type="number" placeholder="Inpute distance">
         <button class="control button" name="search" id="search">SEARCH</button>
     </div>
 </body>
