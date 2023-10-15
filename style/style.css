@@ -18,17 +18,22 @@ body {
 
 .control {
   display: block;
-  width: 200px;
+  width: 250px;
+  height: 40px;
   padding: 10px;
   margin: 10px 0;
-  background-color: var(--tg-theme-button-color);
+  background-color: blue;
   color: var(--tg-theme-button-text-color);
   border: none;
   border-radius: 5px;
 }
 
 .select, .button {
-  width: 220px;
+  width: 270px;
+}
+
+.input {
+  height: 20px;
 }
 
 input[type=number]::-webkit-inner-spin-button,
