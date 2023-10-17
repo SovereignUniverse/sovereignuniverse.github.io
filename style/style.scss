@@ -34,6 +34,16 @@ body {
     height: 20px;
 }
 
+.hide {
+    display: none;
+}
+
+.span {
+    background-color: transparent;
+    color: red;
+    position: fixed;
+}
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
